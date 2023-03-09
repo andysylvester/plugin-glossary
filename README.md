@@ -17,7 +17,40 @@ The plugin provides two features for users. The first feature is a JSON data fil
 
 Here is a set of steps to make updates to the glossary data file glossaryData.json:
 
+First, log into Micro.blog, then click on the Design link in the left navigation menu:
+
 ![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+Next, click on the "Edit Custom Themes" button:
+
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+Next, click on the Glossary link:
+
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+Next, click on the data/glossaryData.json link:
+
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+Add new entries by clicking in the text window. Make sure that you have double-quotes around each item, and to add a comma at the end if you add the item in the middle of the JSON object.
+
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+I added a new thing called "newItem", then clicked "Update Template" button.
+
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+Click "Back" button when you are finished editing the JSON object.
+
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+Add the new thing in a post
+
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+
+
+
 
 ### Planned Features
 
