@@ -17,7 +17,7 @@ The plugin provides two features for users. The first feature is a JSON data fil
 
 Here is a set of steps to make updates to the glossary data file glossaryData.json:
 
-![Glossary Screenshot 01](https://raw.githubusercontent.com/andysylvester/plugin-glossary/main/static/images/Glossary01.png?raw=true)
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
 
 ### Planned Features
 
