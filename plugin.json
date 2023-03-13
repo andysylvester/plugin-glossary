@@ -2,4 +2,11 @@
     "version": "1.0.0",
     "title": "Glossary",
     "description": "Allows user to create a glossary to replace text in posts"
+    "fields": [
+     {
+      "field": "params.glossaryData",
+      "label": "Glossary JSON",
+      "type": "json"
+     }
+    ]
 }
