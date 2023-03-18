@@ -1,1 +1,5 @@
-{{- with .Get 0 -}}{{ index $.Site.Data.glossaryData . }}{{- end -}}
+{{ $glossary := $.Site.Params.glossaryData | unmarshal }}
+
+{{ $glossaryInput := .Get 0 }}
+
+{{ index $glossary $glossaryInput }}
