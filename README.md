@@ -17,39 +17,51 @@ The plugin provides two features for users. The first feature is a JSON data fil
 
 Here is a set of steps to make updates to the glossary data file glossaryData.json:
 
-First, log into Micro.blog, then click on the Design link in the left navigation menu:
+1. Click on Plugins in Micro.blog navigation menu on left side of page
+2. Click on the 
+2. Install Glossary plugin
+3. Go to Plugins page to see Glossary plugin
+4. Click on Settings button for Glossary plugin
+5. Paste in a JSON object like at https://github.com/andysylvester/plugin-glossary/blob/main/data/glossaryData.json
+6. Add/edit entries (make sure to have commas at the end of each entry except the last one, make sure that all key/value entries have quotes at the beginning/end
+7. Use glossary shortcode in posts like this example: https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_08.png
+8. Rendered post should substitute the text from the glossary
+
+First, log into Micro.blog, then click on the Plugins link in the left navigation menu:
 
 ![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
 
-Next, click on the "Edit Custom Themes" button:
+Next, click on the "Find Plugins" button:
 
 ![Glossary Screenshot 02](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_02.png)
 
-Next, click on the Glossary link:
+Next, click on the Install button for the Glossary plugin:
 
 ![Glossary Screenshot 03](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_03.png)
 
-Next, click on the data/glossaryData.json link:
+Next, click on the Settings button for the Glossary plugin from your list of plugins:
 
 ![Glossary Screenshot 04](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_04.png)
 
-Add new entries by clicking in the text window. Make sure that you have double-quotes around each item, and to add a comma at the end if you add the item in the middle of the JSON object.
+Paste in a JSON object like at https://github.com/andysylvester/plugin-glossary/blob/main/data/glossaryData.json
 
-![Glossary Screenshot 05](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_05.png)
+Add new entries or edit old entries by clicking in the text window, then start typing/editing. Make sure that you have double-quotes around each item, and to add a comma at the end if you add the item in the middle of the JSON object.
 
-I added a new thing called "newItem", then clicked "Update Template" button.
+I added a new thing called "newItem"
 
 ![Glossary Screenshot 06](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_06.png)
 
-Click "Back" button when you are finished editing the JSON object.
+Click "Update Settings" button to save your changes. The browser will return to the Plugins page.
 
-![Glossary Screenshot 07](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_07.png)
+New photo here (G_26)
 
-Add the new thing in a post
+Create a post and include one of the glossary items in the post using the glossary shortcode. The general form of the shortcode is {{ glossary newItem }}, where newItem is an entry in the glossary. This post shows several shortcode examples:
 
 ![Glossary Screenshot 08](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_08.png)
 
+Publish the post, then check it on your Micro.blog site. The Preview button will not show the inserted glossary entry. 
 
+Have fun!
 
 
 ### Planned Features
@@ -57,6 +69,12 @@ Add the new thing in a post
 * None at this time, but let me know if you have ideas!
 
 ### Change Log
+
+**Version 1.1.0:** Released March 8, 2023
+- Working version of plugin using JSON field definition to allow user to add/change glossary entries
+
+**Version 1.0.1:** Released March 8, 2023
+- Addition of JSON field definition to plugin.json, update to version number
 
 **Version 1.0:** Released March 8, 2023
 - Initial version of plugin
