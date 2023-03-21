@@ -46,7 +46,7 @@ I added a new thing called "newItem"
 
 Click "Update Settings" button to save your changes. The browser will return to the Plugins page.
 
-![Glossary Screenshot 07] (https://github.com/andysylvester/plugin-glossary/blob/a8887b26afc8657192f656792fce76a2aafc72e3/static/images/GlossaryPic_26.png))
+![Glossary Screenshot 07](https://github.com/andysylvester/plugin-glossary/blob/a8887b26afc8657192f656792fce76a2aafc72e3/static/images/GlossaryPic_26.png))
 
 Create a post and include one of the glossary items in the post using the glossary shortcode. The general form of the shortcode is {{ glossary newItem }}, where newItem is an entry in the glossary. This post shows several shortcode examples:
 
@@ -63,10 +63,10 @@ Have fun!
 
 ### Change Log
 
-**Version 1.1.0:** Released March 8, 2023
+**Version 1.1.0:** Released March 18, 2023
 - Working version of plugin using JSON field definition to allow user to add/change glossary entries
 
-**Version 1.0.1:** Released March 8, 2023
+**Version 1.0.1:** Released March 13, 2023
 - Addition of JSON field definition to plugin.json, update to version number
 
 **Version 1.0:** Released March 8, 2023
