@@ -21,15 +21,20 @@ First, log into Micro.blog, then click on the Plugins link in the left navigatio
 
 Next, click on the "Find Plugins" button:
 
-![Glossary Screenshot 02](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_02.png)
+![Glossary Screenshot 02](https://github.com/andysylvester/plugin-glossary/blob/b15f2b7b477dfef70c2816929218d30113f8e240/static/images/GlossaryPic_27.png)
 
 Next, click on the Install button for the Glossary plugin:
 
-![Glossary Screenshot 03](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_03.png)
+![Glossary Screenshot 03](https://github.com/andysylvester/plugin-glossary/blob/b15f2b7b477dfef70c2816929218d30113f8e240/static/images/GlossaryPic_23.png)
 
 Next, click on the Settings button for the Glossary plugin from your list of plugins:
 
-![Glossary Screenshot 04](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_04.png)
+![Glossary Screenshot 04](https://github.com/andysylvester/plugin-glossary/blob/b15f2b7b477dfef70c2816929218d30113f8e240/static/images/GlossaryPic_21.png)
+
+A new text field will appear:
+
+![Glossary Screenshot 05](https://github.com/andysylvester/plugin-glossary/blob/a8887b26afc8657192f656792fce76a2aafc72e3/static/images/GlossaryPic_28.png)
+
 
 Paste in a JSON object like at https://github.com/andysylvester/plugin-glossary/blob/main/data/glossaryData.json
 
@@ -37,11 +42,11 @@ Add new entries or edit old entries by clicking in the text window, then start t
 
 I added a new thing called "newItem"
 
-![Glossary Screenshot 06](https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_06.png)
+![Glossary Screenshot 06](https://github.com/andysylvester/plugin-glossary/blob/a8887b26afc8657192f656792fce76a2aafc72e3/static/images/GlossaryPic_25.png)
 
 Click "Update Settings" button to save your changes. The browser will return to the Plugins page.
 
-New photo here (G_26)
+![Glossary Screenshot 07] (https://github.com/andysylvester/plugin-glossary/blob/a8887b26afc8657192f656792fce76a2aafc72e3/static/images/GlossaryPic_26.png))
 
 Create a post and include one of the glossary items in the post using the glossary shortcode. The general form of the shortcode is {{ glossary newItem }}, where newItem is an entry in the glossary. This post shows several shortcode examples:
 
