@@ -1,7 +1,7 @@
 # Micro.blog Plugin - Glossary
 A Micro.blog plugin that adds the capability to create a custom glossary for use in posts
 
-This plugin is built for Micro.blog by [@AndySylvester](https://micro.blog/andysylvester) (also at [Andy Sylvester's Web](https://andysylvester.com/)
+This plugin is built for Micro.blog by [@AndySylvester](https://micro.blog/andysylvester) (also at [Andy Sylvester's Web](https://andysylvester.com/))
 
 ### Installing the plug-in
 
@@ -13,23 +13,11 @@ Once installed, you should see a new Menu entry for "Glossary".
 
 The plugin provides two features for users. The first feature is a JSON data file for users to add their glossary entries. This file is a set of key/value entries. where the first item (the key) is the item you include in your post. The second item (the value) is the text that is substituted during the Micro.blog publish process. The second feature is a Hugo shortcode which is used to access the JSON data file.  You can use `{{< glossary key >}}` in your posts, where "key" is one of the glossary entries.
 
-### Example
-
-Here is a set of steps to make updates to the glossary data file glossaryData.json:
-
-1. Click on Plugins in Micro.blog navigation menu on left side of page
-2. Click on the 
-2. Install Glossary plugin
-3. Go to Plugins page to see Glossary plugin
-4. Click on Settings button for Glossary plugin
-5. Paste in a JSON object like at https://github.com/andysylvester/plugin-glossary/blob/main/data/glossaryData.json
-6. Add/edit entries (make sure to have commas at the end of each entry except the last one, make sure that all key/value entries have quotes at the beginning/end
-7. Use glossary shortcode in posts like this example: https://github.com/andysylvester/plugin-glossary/blob/96ba17c39adb8a871c7039f1a2182ba488c67047/static/images/GlosaaryPic_08.png
-8. Rendered post should substitute the text from the glossary
+### Detailed install and use instructions 
 
 First, log into Micro.blog, then click on the Plugins link in the left navigation menu:
 
-![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/cd224ee0ec834b2655249aeaae4d86bd007af9ea/static/images/GlosaaryPic_01.png)
+![Glossary Screenshot 01](https://github.com/andysylvester/plugin-glossary/blob/bbe4e701c0dcd9da0f277db1c99861df746aca7c/static/images/GlossaryPic_20.png)
 
 Next, click on the "Find Plugins" button:
 
